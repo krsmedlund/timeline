@@ -1,0 +1,26 @@
+
+sudo apt-get install python-pip 
+    sudo pip install --upgrade pip
+
+or if you prefer the python tools 
+    sudo easy_install pip
+
+install virtualenv if not already available
+    sudo pip install virtualenv
+
+create the virtual environment
+    virtualenv env
+
+enable the environment 
+    source env/bin/activate
+
+install the dependencies to the environment
+    pip install -r etc/requirements.txt
+
+setup database tables
+    python manage.py syncdb    
+
+run the server
+    python manage.py runserver
+
+

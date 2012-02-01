@@ -1,0 +1,6 @@
+etc/db.sqlite
+settings/local.py
+*.pyc
+build/*
+env
+media/*
